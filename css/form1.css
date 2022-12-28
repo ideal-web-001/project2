@@ -1,5 +1,8 @@
+
+
 .container {
-    background-color: black;
+    background-color:black;
+    opacity:0.8;
     border: none;
     border-radius: 10px;
     width: 400px;
@@ -17,8 +20,10 @@ h1 {
 
 input,
 textarea {
-    
-
+     font-size: 16px;
+     font-family: arial;
+     font-weight: bolder;
+    color:red;
     background-color: black;
     padding: 10px;
     border: none;
@@ -34,8 +39,14 @@ button {
     border: none;
     border-radius: 5px;
     margin: 20px 0px 20px 80px;
-    pointer-events: visible;
+    
     background-color: aqua;
     font-weight: bolder;
     
+}
+::placeholder{
+    color: red;
+}
+img{
+    opacity:0.5;
 }
